@@ -14,4 +14,9 @@ function minionTranslator(Text) {
   fetch(urlGenerator(Text))
     .then(response => response.json())
     .then(json => outputText.innerText = (json.contents.translated))
+    .catch(errorHandling)
+}
+function errorHandling(error)
+{
+  alert(error);
 }
