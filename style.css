@@ -10,7 +10,7 @@ padding:1%;
 }
 
 main{
-  text-align: center;
+  /* text-align: center; */
   margin: auto;
   padding: 15px;
   max-width: 600px;
