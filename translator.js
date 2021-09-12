@@ -3,6 +3,7 @@ var inputText = document.querySelector("textarea");
 var outputText = document.querySelector("#outputText");
 // making button respond to click
 translateButton.addEventListener("click", function() {
+  console.log(inputText.value);
    minionTranslator(inputText.value);
 })
 // url generation
